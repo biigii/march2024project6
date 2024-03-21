@@ -1,55 +1,28 @@
-/* box model */
-/* {
-    width: 500px;
-    height: 400px;
-    margin: 50px;
-    padding: 60px;
-    border: 10px solid
-} */
-
-
+/* box-sizing */
 
 .box-1 {
-    color: rgb(73, 171, 184);
-    background-color: #f99;
-    width: 400px;
-    height: 400px;
-    /* padding: 20px; */
-     /* top right bottom left  */
-     /* padding: 50px 70px 20px 5px; */
-     /* padding: 20px 10px 20px 10px; */
-     /* padding: 20px 10px; */
-     /* padding: 20px 20px 20px 20px; */
-     /* padding: 20px 20px; */
-     /* padding: 20px; */
-     /* padding-top: 50px;
-     padding-left: 70px; */
-     /* margin: 50px; */
-     /* margin: 50px 50px 50px 50px; */
-     /* margin: 50px 100px 100px 200px; */
-     /* margin-left: 100px; */
-     /* width style color */
-     border-width: 20px; 
-     /* border style = solid, dashed, dotted and double */
-     border-style: dashed;
-     border-color: rgb(5, 46, 180);
-
-     /* padding-top: 20px;
-     padding-right: 30px;
-     padding-bottom: 10px;
-     padding-left:0px */
-     /* padding: 20px 30px 10px 0; */
-
-     /* border-width: 10px;
-     border-style: double;
-     border-color: #456; */
-
-     /*  width - style - color */
-     border: 20px solid rgb(5, 46, 180);
+  overflow: hidden;
+  background-color: #e65252;
+  padding: 20px;
+  border: 20px solid;
+  width: 400px;
+  height: 300px;
+  /* box-sizing:content-box; */
+  /* box-sizing: border-box; */
+  /* margin: 50px; */
 }
 
 .box-2 {
-    background-color: #93e3ce;
-    width: 400px;
-    height: 400px;
+  background-color: #83de32;
+  width: 400px;
+  height: 300px;
+  /* box-sizing: content-box; */
+  /* box-sizing: border-box; */
+  border: 5px dashed;
+  padding: 5px;
+}
+
+header {
+    background-color: #000;
+    height: 200px;
 }
