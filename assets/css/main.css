@@ -2,7 +2,7 @@
 /* @import: url() or @import */
 
 /* syntax 1 */
-@import "./normalize.css";
+/* @import "./normalize.css"; */
 @import "./global.css";
 
 /* syntax 2 */

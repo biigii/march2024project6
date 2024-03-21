@@ -1,5 +1,26 @@
 h1 {
-    background-color: rgb(242, 234, 7);
-    color: #e66;
-    text-align: center;
+    /* background-color: rgb(242, 234, 7); */
+    /* color: #e66; */
+    /* default block value */
+    /* display: block;  */
+    /* display: none; */
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(85, 26, 139)
+}
+
+a {
+    /* display: inline; */
+    display: block
+}
+
+
+button {
+    /* display: inline */
+    /* display: block; */
+    /* display: inline-block; */
+}
+
+h3 {
+    display: inline;
 }
