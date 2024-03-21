@@ -1,0 +1,12 @@
+/* we have two syntax for importing  */
+/* @import: url() or @import */
+
+/* syntax 1 */
+@import "./normalize.css";
+@import "./global.css";
+
+/* syntax 2 */
+@import url('./layout.css');
+@import url('./typography.css');
+@import url('./variables.css');
+@import url('./components.css');
