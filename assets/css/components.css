@@ -1,3 +1,46 @@
-button {
-    background-color: #ffea00;
+/* box model */
+/* .box-model {
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    padding: 50px;
+    border: 10px solid
+} */
+
+h1 {
+    display: block;
+    width: 100%;
 }
+
+/* width height */
+/* absolute and relative length */
+button {
+    background-color: rgb(222, 104, 222);
+    width: 160px;
+    height: 50px;
+}
+
+/* pixel is 1/96 of an inch */
+/* rem, em or mostly % */
+.box-model {
+    background-color: #e21111;
+    color: #fff;
+    /* 100% of its parent container */
+    width: 50%
+    /* width: 700px;
+    height: 400px; */
+    /* width: ; */
+}
+
+.parent {
+    width: 75%;
+    height: 300px;
+    background-color: rgb(11, 234, 186);
+}
+
+.child {
+    width: 50%;
+    height: 200px;
+    background-color: #e6b71d;
+}
+
