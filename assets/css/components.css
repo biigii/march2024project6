@@ -1,46 +1,55 @@
 /* box model */
-/* .box-model {
-    width: 300px;
-    height: 300px;
+/* {
+    width: 500px;
+    height: 400px;
     margin: 50px;
-    padding: 50px;
+    padding: 60px;
     border: 10px solid
 } */
 
-h1 {
-    display: block;
-    width: 100%;
+
+
+.box-1 {
+    color: rgb(73, 171, 184);
+    background-color: #f99;
+    width: 400px;
+    height: 400px;
+    /* padding: 20px; */
+     /* top right bottom left  */
+     /* padding: 50px 70px 20px 5px; */
+     /* padding: 20px 10px 20px 10px; */
+     /* padding: 20px 10px; */
+     /* padding: 20px 20px 20px 20px; */
+     /* padding: 20px 20px; */
+     /* padding: 20px; */
+     /* padding-top: 50px;
+     padding-left: 70px; */
+     /* margin: 50px; */
+     /* margin: 50px 50px 50px 50px; */
+     /* margin: 50px 100px 100px 200px; */
+     /* margin-left: 100px; */
+     /* width style color */
+     border-width: 20px; 
+     /* border style = solid, dashed, dotted and double */
+     border-style: dashed;
+     border-color: rgb(5, 46, 180);
+
+     /* padding-top: 20px;
+     padding-right: 30px;
+     padding-bottom: 10px;
+     padding-left:0px */
+     /* padding: 20px 30px 10px 0; */
+
+     /* border-width: 10px;
+     border-style: double;
+     border-color: #456; */
+
+     /*  width - style - color */
+     border: 20px solid rgb(5, 46, 180);
 }
 
-/* width height */
-/* absolute and relative length */
-button {
-    background-color: rgb(222, 104, 222);
-    width: 160px;
-    height: 50px;
+.box-2 {
+    background-color: #93e3ce;
+    width: 400px;
+    height: 400px;
 }
-
-/* pixel is 1/96 of an inch */
-/* rem, em or mostly % */
-.box-model {
-    background-color: #e21111;
-    color: #fff;
-    /* 100% of its parent container */
-    width: 50%
-    /* width: 700px;
-    height: 400px; */
-    /* width: ; */
-}
-
-.parent {
-    width: 75%;
-    height: 300px;
-    background-color: rgb(11, 234, 186);
-}
-
-.child {
-    width: 50%;
-    height: 200px;
-    background-color: #e6b71d;
-}
-
